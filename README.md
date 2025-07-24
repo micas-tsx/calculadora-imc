@@ -1,46 +1,120 @@
-# Getting Started with Create React App
+# 🧮 Calc IMC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-19.1.0-61dafb?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](#roadmap)
 
-## Available Scripts
+> **Projeto desenvolvido para calcular o Índice de Massa Corporal (IMC) de forma simples, rápida e visual, utilizando React + TypeScript.**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📋 Sumário
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Instalação e Execução](#instalacao-e-execucao)
+- [Estrutura de Pastas](#estrutura-de-pastas)
+- [Como Contribuir](#como-contribuir)
+- [Aprendizados](#aprendizados)
+- [Autor e Contato](#autor-e-contato)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📝 Sobre o Projeto
 
-### `npm test`
+O **Calc IMC** é uma calculadora de IMC (Índice de Massa Corporal) desenvolvida em React e TypeScript. O objetivo é permitir que qualquer pessoa possa calcular rapidamente seu IMC, visualizar em qual faixa se encontra (magreza, normal, sobrepeso, obesidade) e entender melhor sua saúde de forma didática e visual.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/) (v19.1.0)
+- [TypeScript](https://www.typescriptlang.org/) (v4.9.5)
+- CSS Modules
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Funcionalidades
 
-### `npm run eject`
+- Cálculo automático do IMC a partir de altura e peso informados
+- Exibição visual da faixa de IMC (magreza, normal, sobrepeso, obesidade)
+- Interface responsiva e amigável
+- Reset dos campos para novo cálculo
+- Mensagens de validação para campos obrigatórios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💻 Instalação e Execução
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/calc-imc.git
+   cd calc-imc
+   ```
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+3. **Execute o projeto em modo desenvolvimento:**
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
+4. Acesse em [http://localhost:3000](http://localhost:3000)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 📁 Estrutura de Pastas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+calculadora-imc/
+├── public/           # Arquivos estáticos e index.html
+├── src/
+│   ├── assets/       # Imagens e ícones
+│   ├── components/   # Componentes reutilizáveis (ex: GridItem)
+│   ├── helpers/      # Funções utilitárias (ex: cálculo do IMC)
+│   ├── App.tsx       # Componente principal
+│   ├── index.tsx     # Ponto de entrada da aplicação
+│   └── ...           # Outros arquivos de configuração
+├── package.json      # Dependências e scripts
+└── README.md         # Documentação do projeto
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 🤝 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature ou correção (`git checkout -b minha-feature`)
+3. Commit suas alterações (`git commit -m 'feat: Minha nova feature'`)
+4. Push para a branch (`git push origin minha-feature`)
+5. Abra um Pull Request
+
+Sinta-se à vontade para sugerir melhorias, abrir issues ou enviar PRs!
+
+---
+
+## 📚 Aprendizados
+
+- Prática de React com TypeScript e tipagem forte
+- Organização de componentes e helpers
+- Uso de CSS Modules para estilização isolada
+- Validação de formulários e UX amigável
+- Estruturação de projetos front-end profissionais
+
+---
+
+## 👤 Autor e Contato
+
+Desenvolvido por **Seu Nome Aqui**
+
+- [LinkedIn](https://www.linkedin.com/in/micael-abud)
+- [Seu Email](mailto:micaelabud21@gmail.com)
+- [Seu GitHub](https://github.com/micas-tsx)
+
+---
+
+> Sinta-se à vontade para usar, modificar e compartilhar este projeto!

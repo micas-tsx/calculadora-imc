@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import styles from './App.module.css'
-import poweredImage from './assets/powered.png'
 import arrowImage from './assets/leftarrow.png'
 import { levels, calculateImc, Level } from './helpers/imc'
 import { GridItem } from './components/GridItem'
@@ -26,25 +25,20 @@ const App = () => {
 
   return(
     <div className={styles.main}>
-      <header>
-        <div className={styles.headerContainer}>
-          <img src={poweredImage} alt="logo" width={150} />
-        </div>
-      </header>
       <div className={styles.container}>
         <div className={styles.leftSide}>
           <h1>Calcule seu IMC</h1>
           <p>O IMC, ou Índice de Massa Corporal, é uma medida utilizada para avaliar se uma pessoa está com o peso ideal em relação à sua altura. É um cálculo simples, feito dividindo o peso (em quilogramas) pela altura (em metros) ao quadrado. O resultado ajuda a identificar se a pessoa está abaixo do peso, com peso normal, com sobrepeso ou obesa</p>
         
           <input 
-            placeholder="Digite a sua altura. Ex 1.5(em metros)"
+            placeholder="Digite a sua altura. Ex 1.5 (em metros)"
             type="number"
             value={heightField > 0 ? heightField : ''}
             onChange={e => setHeightField(parseFloat(e.target.value))}
             disabled={toShow ? true : false}
           />
           <input 
-            placeholder="Digite a ser peso. Ex 75.3(em kilogramas)"
+            placeholder="Digite a ser peso. Ex 75.3 (em kilogramas)"
             type="number"
             value={weightField > 0 ? weightField : ''}
             onChange={e => setWeightField(parseFloat(e.target.value))}
