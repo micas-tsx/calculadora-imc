@@ -2,11 +2,15 @@
 
 [![React](https://img.shields.io/badge/React-19.1.0-61dafb?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178c6?logo=typescript)](https://www.typescriptlang.org/)
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)](#roadmap)
 
 > **Projeto desenvolvido para calcular o Índice de Massa Corporal (IMC) de forma simples, rápida e visual, utilizando React + TypeScript.**
 
 ---
+<h2>
+<a href="https://mediadesaude.netlify.app"> Veja o projeto online </a>
+</h2>
+
+
 
 ## 📋 Sumário
 - [Sobre o Projeto](#sobre-o-projeto)
